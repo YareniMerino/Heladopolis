@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0px;background-color:#FFDCFF}
+header{
+    background-color: #FF0004;
+    height: 30%;
+    justify-content: space-between;
+	display: flex;
+	align-items: center;
+	margin: 0px; padding-left: 20px;
+	padding-right: 20px;
+	
+}
+nav {background: #00C3FF;
+display: flex;
+flex-direction: row;
+justify-content:center;
+	margin: 0px;
+	padding: 0px;
+	height: 80px;
+}
+
+.logo {
+    padding: 25px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+.linkuno{background-color: none}
+nav ul li {
+	
+    list-style-type: none;
+    display: inline;
+    margin-top: 20px;
+	display: inline-block;
+font-family: Helvetica, "sans-serif"; color: #FFFFFF; 
+	padding-left: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    height: 40px;
+    background-color:#FF8800;
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF; 
+}
+a:hover{
+			color:#01696C;
+	background-color: #00C4FF;}
+main{align-content: center; margin: 0px;padding: 10px;background-color: #FFC1FF}
+
+main h2 {font-family: Helvetica, "sans-serif"; color: #FF0004;
+	margin-left: 20px; padding: 10px; text-align: center}
+
+main h3 {font-family: Helvetica, "sans-serif";
+margin-left: 20px; padding-left: 10px; text-align: center; }
+
+main p {font-family: Helvetica, "sans-serif";
+margin-left: 20px;
+padding-left: 10px; text-align: center}
+
+.contenido{box-shadow: 0px 15px 25px rgba(0,0,0,0.20);
+float: left;width: 250px;
+margin:20px;
+border: 35px solid #FF8800;
+border-radius: 6px; background-color: #FFFFFF;}
+.contenido img{
+	width: 100%; height: auto
+}
+.pie {text-align: center; color:#FF0004;  margin-left: -30px;}
+.uno{justify-content: center; display: flex;}
+footer {background: #00C4FF;
+	height: 200px;
+    
+	display: flex;}
+footer h3 {
+	font-family: Helvetica;
+	text-align: center; color: #FFFFFF; 
+}
+.texto{
+	justify-content: center; margin-top: -140px; margin-left: 80px;
+}
+.tituloespacio {margin-top: 100px
+}

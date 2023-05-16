@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0px;background-color: #FFDCFF}
+header{
+    background-color: #FF0004;
+    height: 30%;
+    justify-content: space-between;
+	display: flex;
+	align-items: center;
+	margin: 0px; padding-left: 20px;
+	padding-right: 20px;
+	
+}
+
+.logo {
+    padding: 25px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+.linkuno{background-color: none}
+nav {background: #00C3FF;
+display: flex;
+flex-direction: row;
+justify-content:center;
+	margin: 0px;
+	padding: 0px;
+	height: 80px;
+}
+nav ul li {
+	
+    list-style-type: none;
+    display: inline;
+    margin-top: 20px;
+	display: inline-block;
+font-family: Helvetica, "sans-serif"; color: #FFFFFF; 
+	padding-left: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    height: 40px;
+    background-color:#FF8800;
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF; 
+}
+a:hover{
+			color:#01696C;
+	background-color: #00C4FF;}
+main{align-content: center; margin: 0px;padding: 10px; padding-bottom: 100px; background-color: #FFC1FF}
+main h2 {font-family: Helvetica, "sans-serif"; color: #FF0004;
+	margin-left: 20px; padding: 10px; text-align: center}
+
+form{
+width: 900px; align-content: center; margin: 0px; align-items: center; padding: 10px; margin-left: 20%;
+	font-family: Helvetica, "sans-serif"; 
+}
+
+input{
+    width: 40%;
+    padding: 5px;
+    margin: 8px 0;
+    border: 1px solid #FFE0E1;
+    border-radius: 10px; height: 50px
+			}
+buttom{
+				width: 10%;
+				padding: 5px;
+				border-radius: 10px;
+				background-color:#FF0004;
+				cursor: pointer; color: #FFFFFF;margin-left: 1000px; 
+			}
+textarea { width: 40%;
+    padding: 5px;
+    margin: 8px 0;
+    border: 1px solid #FFE0E1;
+    border-radius: 10px;height: 100px}
+
+.redes{width: 150px;}
+
+.contenedorredes{ justify-content: space-between;
+	display: flex;
+align-content: center; 
+align-items: center;
+margin: 0px; 
+padding-left: 50px; padding-right: 50px }
+footer {background: #00C4FF;
+	height: 200px;
+    
+	display: flex;}
+footer h3 {
+	font-family: Helvetica;
+	text-align: center; color: #FFFFFF; 
+}
+.texto{
+	justify-content: center; margin-top: -140px; margin-left: 80px;
+}
